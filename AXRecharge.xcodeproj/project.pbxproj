@@ -7,16 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		17A0333C2F6A9F4A469BBE3E /* libPods-AXRecharge.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C630EE98F7FEFBAD0CFFA3D /* libPods-AXRecharge.a */; };
 		7E7CB6C21F948E9800B54BA7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7CB6C11F948E9800B54BA7 /* AppDelegate.m */; };
 		7E7CB6C51F948E9800B54BA7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7CB6C41F948E9800B54BA7 /* ViewController.m */; };
 		7E7CB6C81F948E9800B54BA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E7CB6C61F948E9800B54BA7 /* Main.storyboard */; };
 		7E7CB6CA1F948E9800B54BA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E7CB6C91F948E9800B54BA7 /* Assets.xcassets */; };
 		7E7CB6CD1F948E9800B54BA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E7CB6CB1F948E9800B54BA7 /* LaunchScreen.storyboard */; };
 		7E7CB6D01F948E9800B54BA7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7CB6CF1F948E9800B54BA7 /* main.m */; };
-		7E7CB6D91F948F7400B54BA7 /* RechargeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7CB6D81F948F7400B54BA7 /* RechargeViewController.m */; };
+		7E7CB6DE1F94A2DB00B54BA7 /* Target_Recharge.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7CB6DD1F94A2DB00B54BA7 /* Target_Recharge.m */; };
+		7E7CB6E11F94A31100B54BA7 /* CTMediator+Recharge.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7CB6E01F94A31100B54BA7 /* CTMediator+Recharge.m */; };
+		7E7CB6E41F94A39700B54BA7 /* RechargeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7CB6E21F94A39700B54BA7 /* RechargeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5C630EE98F7FEFBAD0CFFA3D /* libPods-AXRecharge.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AXRecharge.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E7CB6BD1F948E9800B54BA7 /* AXRecharge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AXRecharge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E7CB6C01F948E9800B54BA7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7E7CB6C11F948E9800B54BA7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -27,8 +31,14 @@
 		7E7CB6CC1F948E9800B54BA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7E7CB6CE1F948E9800B54BA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7E7CB6CF1F948E9800B54BA7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		7E7CB6D71F948F7400B54BA7 /* RechargeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RechargeViewController.h; sourceTree = "<group>"; };
-		7E7CB6D81F948F7400B54BA7 /* RechargeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RechargeViewController.m; sourceTree = "<group>"; };
+		7E7CB6DC1F94A2DB00B54BA7 /* Target_Recharge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target_Recharge.h; sourceTree = "<group>"; };
+		7E7CB6DD1F94A2DB00B54BA7 /* Target_Recharge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_Recharge.m; sourceTree = "<group>"; };
+		7E7CB6DF1F94A31100B54BA7 /* CTMediator+Recharge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CTMediator+Recharge.h"; sourceTree = "<group>"; };
+		7E7CB6E01F94A31100B54BA7 /* CTMediator+Recharge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+Recharge.m"; sourceTree = "<group>"; };
+		7E7CB6E21F94A39700B54BA7 /* RechargeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RechargeViewController.m; sourceTree = "<group>"; };
+		7E7CB6E31F94A39700B54BA7 /* RechargeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RechargeViewController.h; sourceTree = "<group>"; };
+		E994B2C88A0DFC7F349DABF8 /* Pods-AXRecharge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AXRecharge.release.xcconfig"; path = "Pods/Target Support Files/Pods-AXRecharge/Pods-AXRecharge.release.xcconfig"; sourceTree = "<group>"; };
+		FF2781EC87A40E9D954183BC /* Pods-AXRecharge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AXRecharge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AXRecharge/Pods-AXRecharge.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,17 +46,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17A0333C2F6A9F4A469BBE3E /* libPods-AXRecharge.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E072C7659C2FBABCDEFFBEB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5C630EE98F7FEFBAD0CFFA3D /* libPods-AXRecharge.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5B5F9F859FBC49EBBBE6C169 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FF2781EC87A40E9D954183BC /* Pods-AXRecharge.debug.xcconfig */,
+				E994B2C88A0DFC7F349DABF8 /* Pods-AXRecharge.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		7E7CB6B41F948E9800B54BA7 = {
 			isa = PBXGroup;
 			children = (
 				7E7CB6BF1F948E9800B54BA7 /* AXRecharge */,
 				7E7CB6BE1F948E9800B54BA7 /* Products */,
+				5B5F9F859FBC49EBBBE6C169 /* Pods */,
+				1E072C7659C2FBABCDEFFBEB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,10 +108,30 @@
 		7E7CB6D61F948F3A00B54BA7 /* AXRecharge */ = {
 			isa = PBXGroup;
 			children = (
-				7E7CB6D71F948F7400B54BA7 /* RechargeViewController.h */,
-				7E7CB6D81F948F7400B54BA7 /* RechargeViewController.m */,
+				7E7CB6DB1F949E8F00B54BA7 /* CTMediatorCategory */,
+				7E7CB6DA1F949E6100B54BA7 /* ViewControllers */,
 			);
 			path = AXRecharge;
+			sourceTree = "<group>";
+		};
+		7E7CB6DA1F949E6100B54BA7 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				7E7CB6E31F94A39700B54BA7 /* RechargeViewController.h */,
+				7E7CB6E21F94A39700B54BA7 /* RechargeViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		7E7CB6DB1F949E8F00B54BA7 /* CTMediatorCategory */ = {
+			isa = PBXGroup;
+			children = (
+				7E7CB6DC1F94A2DB00B54BA7 /* Target_Recharge.h */,
+				7E7CB6DD1F94A2DB00B54BA7 /* Target_Recharge.m */,
+				7E7CB6DF1F94A31100B54BA7 /* CTMediator+Recharge.h */,
+				7E7CB6E01F94A31100B54BA7 /* CTMediator+Recharge.m */,
+			);
+			path = CTMediatorCategory;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -91,9 +141,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7E7CB6D31F948E9800B54BA7 /* Build configuration list for PBXNativeTarget "AXRecharge" */;
 			buildPhases = (
+				C7E9C4A2A3891A1E3E883F13 /* [CP] Check Pods Manifest.lock */,
 				7E7CB6B91F948E9800B54BA7 /* Sources */,
 				7E7CB6BA1F948E9800B54BA7 /* Frameworks */,
 				7E7CB6BB1F948E9800B54BA7 /* Resources */,
+				2A4206CD98BBC06357B03CAD /* [CP] Embed Pods Frameworks */,
+				26DDA47B41E883B721105859 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -150,15 +203,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		26DDA47B41E883B721105859 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AXRecharge/Pods-AXRecharge-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2A4206CD98BBC06357B03CAD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AXRecharge/Pods-AXRecharge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7E9C4A2A3891A1E3E883F13 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AXRecharge-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7E7CB6B91F948E9800B54BA7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				7E7CB6C51F948E9800B54BA7 /* ViewController.m in Sources */,
+				7E7CB6E41F94A39700B54BA7 /* RechargeViewController.m in Sources */,
+				7E7CB6E11F94A31100B54BA7 /* CTMediator+Recharge.m in Sources */,
 				7E7CB6D01F948E9800B54BA7 /* main.m in Sources */,
 				7E7CB6C21F948E9800B54BA7 /* AppDelegate.m in Sources */,
-				7E7CB6D91F948F7400B54BA7 /* RechargeViewController.m in Sources */,
+				7E7CB6DE1F94A2DB00B54BA7 /* Target_Recharge.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,6 +396,7 @@
 		};
 		7E7CB6D41F948E9800B54BA7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF2781EC87A40E9D954183BC /* Pods-AXRecharge.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -305,6 +412,7 @@
 		};
 		7E7CB6D51F948E9800B54BA7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E994B2C88A0DFC7F349DABF8 /* Pods-AXRecharge.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
