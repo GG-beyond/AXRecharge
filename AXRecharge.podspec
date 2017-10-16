@@ -16,6 +16,7 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   s.author             = { "GG-beyond" => "872608550@qq.com" }
   s.platform     = :ios, "8.0"
+  s.ios.deployment_target = "8.0"
 
 
 
