@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "AXRecharge"
-  s.version      = "0.0.1"
+  s.version      = "0.0.3"
   s.summary      = " 组件化 之 充值类 ."
 
   s.description  = <<-DESC
@@ -15,12 +15,11 @@ Pod::Spec.new do |s|
 
   s.license      = "MIT"
   s.author             = { "GG-beyond" => "872608550@qq.com" }
-  s.platform     = :ios, "8.0"
   s.ios.deployment_target = "8.0"
 
 
 
-  s.source       = { :git => "https://github.com/GG-beyond/AXRecharge.git", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/GG-beyond/AXRecharge.git", :tag => "0.0.3" }
 
 
 
