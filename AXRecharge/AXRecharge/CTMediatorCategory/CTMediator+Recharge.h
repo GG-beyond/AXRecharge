@@ -9,6 +9,6 @@
 #import <CTMediator/CTMediator.h>
 
 @interface CTMediator (Recharge)
-- (UIViewController *)projectVc;
+- (UIViewController *)rechargeVc;
 
 @end

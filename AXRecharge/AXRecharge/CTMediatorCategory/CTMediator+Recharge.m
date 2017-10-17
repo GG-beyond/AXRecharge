@@ -9,8 +9,8 @@
 #import "CTMediator+Recharge.h"
 
 @implementation CTMediator (Recharge)
-- (UIViewController *)projectVc{
+- (UIViewController *)rechargeVc{
     
-    return [self performTarget:@"Project" action:@"viewController" params:nil shouldCacheTarget:YES];
+    return [self performTarget:@"Recharge" action:@"viewController" params:nil shouldCacheTarget:YES];
 }
 @end
